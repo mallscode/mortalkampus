@@ -1,44 +1,38 @@
-# Windows
- 
+# ===============================
+# ⚙️ SISTEMA (Windows / macOS)
+# ===============================
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
- 
+
 # Dump file
 *.stackdump
- 
+
 # Folder config file
 [Dd]esktop.ini
- 
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
- 
+
 # Windows Installer files
 *.cab
 *.msi
 *.msix
 *.msm
 *.msp
- 
+
 # Windows shortcuts
 *.lnk
- 
-# Mac
- 
-## General
+
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
- 
-## Icon must end with two \r
 Icon
- 
-## Thumbnails
 ._*
- 
-## Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -46,14 +40,60 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
- 
-## Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
- 
-# GameMaker temporary files
-*.resource_order
+
+# ===============================
+# 🎮 GAMEMAKER
+# ===============================
+
+# Project build cache
+*.ycc
+*.ycf
+*.yyz
+*.zip
+*.exe
+*.dll
+*.obj
+*.log
+*.bin
+*.dmp
+
+# Temporary files and build folders
+.cache/
+temp/
+build/
+output/
+debug/
+__yy_tmp/
+extensions/steamworks.gml/
+
+# Compiled audio or video
+*.ogg
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Backup or old project files
 *.old
+*.backup
+*.autosave
+
+# GameMaker generated resource order file
+*.resource_order
+
+# ===============================
+# 💡 OUTROS
+# ===============================
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
