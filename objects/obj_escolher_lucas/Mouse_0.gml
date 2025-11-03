@@ -1,2 +1,3 @@
-room_goto(room_arena_books)
-global.jogador="lucas";
+
+global.jogador1="lucas";
+room_goto(room_select_2)
