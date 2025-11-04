@@ -36,6 +36,7 @@
   "name":"trying gml",
   "resources":[
     {"id":{"name":"obj_botao_jogar","path":"objects/obj_botao_jogar/obj_botao_jogar.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_escolher_henrique_2","path":"objects/obj_escolher_henrique_2/obj_escolher_henrique_2.yy",},},
     {"id":{"name":"obj_escolher_henrique","path":"objects/obj_escolher_henrique/obj_escolher_henrique.yy",},},
